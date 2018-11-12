@@ -1,4 +1,4 @@
-# Projektseite-Halloween---The-Game
+# Projektseite Halloween - The Game
 
 ## Idee
 
