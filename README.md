@@ -53,11 +53,16 @@ Dazu nutzten wir den Control-Block "Wenn Pfeiltaste nach (Richtung) gedrückt" u
 
 <img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48673758-07be8f80-eb45-11e8-866a-d7870e44af99.png">
 
-Zudem sollte das Gesepnst auf Berührungen mit den Fledermäuses reagieren. Dazu wählten wir ein zweites Gespenst aus den verfügbarene Kostümen. Sobald dich Fledermaus und Geist berühren, verschwindet das Gespenst kurz und wechselt dann für 0,3 Sekunden zu einem anderen Kostüm, das den Geist wütend zeigt. Danach wechselt es zurück zu seinem vorherigren Kostüm. Um dies darzustellen nutzen wir den Control-Befehl "Wenn berühre "bat"" und gaben danach die auszuführenden Befehle an. Diesen Befehl prgrammierten wir für alle Fledermäuse. 
+Zudem sollte das Gespenst auf Berührungen mit den Fledermäuses reagieren. Dazu wählten wir ein zweites Gespenst aus den verfügbarene Kostümen. Sobald dich Fledermaus und Geist berühren, verschwindet das Gespenst kurz und wechselt dann für 0,3 Sekunden zu einem anderen Kostüm, das den Geist wütend zeigt. Danach wechselt es zurück zu seinem vorherigren Kostüm. Um dies darzustellen nutzen wir den Control-Befehl "Wenn berühre "bat"" und gaben danach die auszuführenden Befehle an. Diesen Befehl programmierten wir für alle Fledermäuse. 
 
 <img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48674001-16f30c80-eb48-11e8-9ec3-c09ac58221eb.png">
 
 ### Ziel: Kürbis
+
+Die Aufgabe des Spieler sollte es sein, als Gepenst möglichst oft den Kürbis als Ziel zu berühren. Den Kürbis suchten wir uns aus dem Internet und setzten ihn als Kostüm ein. Anschließend entschieden wir uns, statt mehrerer Kürbisse nur einen zu wählen, der nach jeder Berührung durch den Geit an eine neue zufällige Position wechselt, zu Beginn jeder Runde jedoch an der selben Koordinate (-50⎢100) starten. Da wir als Start des Spiels das Drücken der Leertaste festgelegt hatte, nutzten wir den Control-Block "Wenn Taste Leertaste gedrückt" und den Motion-Block "Gehe zu x: -50, y: 100), wobei der Kürbis auf 30% seiner Größe reduziert werden sollte: Look-Block "setzt Grüße auf 30%".
+<img width="221" alt="bildschirmfoto 2018-11-18 um 16 15 21" src="https://user-images.githubusercontent.com/42578525/48674484-2d4f9700-eb4d-11e8-8791-936b1a8b5194.png">
+Um den Kürbis an eine zufällige Stelle springen zu lassen, wählten wir den Sensing-Block "Wenn berühre Sprite(2)" und den Look-Block "verstecken", damit der Kürbis zunäxhst kurz verschwindet. Darauf folgt der Motion-Block "gehe zu zufällige Position" und die Auflösung des Versteckens durch den Befehl "anzeigen". Um den Kürbis dabei innerhalb des Spielfelds zu halten, nutzten wir zudem den Befehl "Pralle von Rand ab". 
+<img width="218" alt="bildschirmfoto 2018-11-18 um 16 20 20" src="https://user-images.githubusercontent.com/42578525/48674558-e01ff500-eb4d-11e8-9e52-6dc26096f04d.png">
 
 
 
