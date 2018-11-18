@@ -31,6 +31,9 @@ Nachdem wir uns für ein Programm und eine Spielidee entschieden hatten, planten
 
 In den Vorlagen der Kostüme von Snap! fanden wir vier verschiedene Fledermauskostüme, aus denen sich eine fleigende, mit den Flügeln schlagende Fledermaus annimieren ließ. 
 
+<img width="356" alt="bildschirmfoto 2018-11-18 um 12 41 04" src="https://user-images.githubusercontent.com/42578525/48671908-42b5c880-eb2f-11e8-90f1-36633de2298c.png">
+
+
 Diese waren der Grunfbaustein unseres Spieles. Erst danach wählten wir ein Gespenst als Spielfigur und einen Kürbis als Ziel, welches der Geist erreichen muss. 
 
 
