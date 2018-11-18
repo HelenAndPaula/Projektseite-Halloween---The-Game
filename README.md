@@ -74,5 +74,7 @@ Da es sich bei unserem Spiel um ein Halloween-Spiel handelt, wählen wir einen N
 
 ![himmel 2](https://user-images.githubusercontent.com/42578525/48674797-7b19ce80-eb50-11e8-9056-cd3fc11a5f9c.png)
 
+### Punktesystem und Zeit
+
 
 
