@@ -25,7 +25,13 @@ Snap! ist eine visuelle Blockprogrammiersprache, die sich besonders für Einstei
 
 Aus jeder der Kategorien, denen der Übersicht halber auch je eine Farbe zugeteilt ist, lassen sich eine Vielzahl an Befehlen wählen und per Drag and Drop zusammensetzten. Die Befehle gelten dabei zum beispiel für eine bestimmt Figur oder den Hintergrund, die sich individuell oder aus vorhandnenen Vorlagen wählen lassen.
 
-## Umsetzung der Idee
+## Umsetzung der Idee - Konzept
+
+Nachdem wir uns für ein Programm und eine Spielidee entschieden hatten, planten wir die Umsetzung und den Ausbau der Idee. 
+
+In den Vorlagen der Kostüme von Snap! fanden wir vier verschiedene Fledermauskostüme, aus denen sich eine fleigende, mit den Flügeln schlagende Fledermaus annimieren ließ. 
+
+Diese waren der Grunfbaustein unseres Spieles. Erst danach wählten wir ein Gespenst als Spielfigur und einen Kürbis als Ziel, welches der Geist erreichen muss. 
 
 
 
