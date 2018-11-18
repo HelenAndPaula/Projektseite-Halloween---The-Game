@@ -12,6 +12,9 @@ zu verstehen, indem wir den dazugehörigen Onlinekurs bearbeitet haben.
 NAch der Methode des "learning by doing" habe wir zunächst meherere verschiedene kleine Projekte ausprobiert, sodass wir erst 
 Anfang Oktober mit unserem richitgen Spiel beganne, wobei wir die aus den verherigen Projekten gewonnenenStrategien nutzten. 
 
-Da nun Halloween immer näher rückte, entschieden wir uns, ein "gruseliges" Spiel zu programmieren, welches jedochauchfür Kinder 
+Da nun Halloween immer näher rückte, entschieden wir uns, ein "gruseliges" Spiel zu programmieren, welches vor allem für Kinder 
 geeignet ist. 
+
+
+
 
