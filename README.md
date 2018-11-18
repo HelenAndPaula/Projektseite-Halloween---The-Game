@@ -38,6 +38,21 @@ Diese waren der Grundbaustein unseres Spieles. Erst danach wählten wir ein Gesp
 
 <img width="375" alt="bildschirmfoto 2018-11-18 um 12 59 51" src="https://user-images.githubusercontent.com/42578525/48672099-edc78180-eb31-11e8-94e0-ca799e994fe0.png">
 
+Nachdem wir nun sowohl die Figuren sowie den Inhalt des Spiels festgelegt hatten, versuchten wir zunächst, die Fledermäuse als Gegner zu progrmmieren. Dazu nutzten wir die verschiednen Kostüme (s. oben) und gaben den Befehl, dass die Fledermäuse sich jeweils um zwei Schritte bewgen sollten, an den Rändern des Spielfeldes abprallen sollen und sich dabei die verschiedenen Fledermäuse auf verschienden Höhen bewegen.
+
+<img width="228" alt="bildschirmfoto 2018-11-18 um 14 57 45" src="https://user-images.githubusercontent.com/42578525/48673504-6afaf280-eb42-11e8-9ce8-1d4d9e5eb35c.png">
+
+Somit hatten wird die Grundlage eines sich bewgenden Gegners geschaffen.
+
+ALs nächstes programmierten wir den Geist als Hauptfigur. Unser Ziel war es dabei, dass der Spieler den Geist mit den Pfeiltasten steuern kann, um den Kürbis zu erreichen und den FLedermäusen auszuweichen. Dabei entspricht die Richtung der Pfeiltaste der Bewegungsrichtung. 
+
+Dazu nutzten wir den Control-Block "Wenn Pfeiltaste nach (Richtung) gedrückt" und gaben an dass sich das Gespenst in diesem Falle zwei Schritte in die jeweilige Richtung bewegen sollte. 
+
+<img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48673758-07be8f80-eb45-11e8-866a-d7870e44af99.png">
+
+
+
+
 
 
 
