@@ -29,6 +29,7 @@ Aus jeder der Kategorien, denen der Übersicht halber auch je eine Farbe zugetei
 
 Nachdem wir uns für ein Programm und eine Spielidee entschieden hatten, planten wir die Umsetzung und den Ausbau der Idee. 
 
+### Gegner: Fledermäuse 
 In den Vorlagen der Kostüme von Snap! fanden wir vier verschiedene Fledermauskostüme, aus denen sich eine fleigende, mit den Flügeln schlagende Fledermaus annimieren ließ. 
 
 <img width="110" alt="bildschirmfoto 2018-11-18 um 12 43 46" src="https://user-images.githubusercontent.com/42578525/48671949-b48e1200-eb2f-11e8-8ae5-1c54f543aa93.png"> <img width="356" alt="bildschirmfoto 2018-11-18 um 12 41 04" src="https://user-images.githubusercontent.com/42578525/48671908-42b5c880-eb2f-11e8-90f1-36633de2298c.png"> 
@@ -44,17 +45,19 @@ Nachdem wir nun sowohl die Figuren sowie den Inhalt des Spiels festgelegt hatten
 
 Somit hatten wird die Grundlage eines sich bewgenden Gegners geschaffen.
 
+### Hauptfigur: Geist
+
 ALs nächstes programmierten wir den Geist als Hauptfigur. Unser Ziel war es dabei, dass der Spieler den Geist mit den Pfeiltasten steuern kann, um den Kürbis zu erreichen und den FLedermäusen auszuweichen. Dabei entspricht die Richtung der Pfeiltaste der Bewegungsrichtung. 
 
 Dazu nutzten wir den Control-Block "Wenn Pfeiltaste nach (Richtung) gedrückt" und gaben an dass sich das Gespenst in diesem Falle zwei Schritte in die jeweilige Richtung bewegen sollte. 
 
 <img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48673758-07be8f80-eb45-11e8-866a-d7870e44af99.png">
 
+Zudem sollte das Gesepnst auf Berührungen mit den Fledermäuses reagieren. Dazu wählten wir ein zweites Gespenst aus den verfügbarene Kostümen. Sobald dich Fledermaus und Geist berühren, verschwindet das Gespenst kurz und wechselt dann für 0,3 Sekunden zu einem anderen Kostüm, das den Geist wütend zeigt. Danach wechselt es zurück zu seinem vorherigren Kostüm. Um dies darzustellen nutzen wir den Control-Befehl "Wenn berühre "bat"" und gaben danach die auszuführenden Befehle an. Diesen Befehl prgrammierten wir für alle Fledermäuse. 
 
+<img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48674001-16f30c80-eb48-11e8-9ec3-c09ac58221eb.png">
 
-
-
-
+### Ziel: Kürbis
 
 
 
