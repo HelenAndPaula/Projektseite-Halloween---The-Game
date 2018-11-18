@@ -60,10 +60,17 @@ Zudem sollte das Gespenst auf Berührungen mit den Fledermäuses reagieren. Dazu
 ### Ziel: Kürbis
 
 Die Aufgabe des Spieler sollte es sein, als Gepenst möglichst oft den Kürbis als Ziel zu berühren. Den Kürbis suchten wir uns aus dem Internet und setzten ihn als Kostüm ein. Anschließend entschieden wir uns, statt mehrerer Kürbisse nur einen zu wählen, der nach jeder Berührung durch den Geit an eine neue zufällige Position wechselt, zu Beginn jeder Runde jedoch an der selben Koordinate (-50⎢100) starten. Da wir als Start des Spiels das Drücken der Leertaste festgelegt hatte, nutzten wir den Control-Block "Wenn Taste Leertaste gedrückt" und den Motion-Block "Gehe zu x: -50, y: 100), wobei der Kürbis auf 30% seiner Größe reduziert werden sollte: Look-Block "setzt Grüße auf 30%".
+
 <img width="221" alt="bildschirmfoto 2018-11-18 um 16 15 21" src="https://user-images.githubusercontent.com/42578525/48674484-2d4f9700-eb4d-11e8-8791-936b1a8b5194.png">
 Um den Kürbis an eine zufällige Stelle springen zu lassen, wählten wir den Sensing-Block "Wenn berühre Sprite(2)" und den Look-Block "verstecken", damit der Kürbis zunäxhst kurz verschwindet. Darauf folgt der Motion-Block "gehe zu zufällige Position" und die Auflösung des Versteckens durch den Befehl "anzeigen". Um den Kürbis dabei innerhalb des Spielfelds zu halten, nutzten wir zudem den Befehl "Pralle von Rand ab". 
+
 <img width="218" alt="bildschirmfoto 2018-11-18 um 16 20 20" src="https://user-images.githubusercontent.com/42578525/48674558-e01ff500-eb4d-11e8-9e52-6dc26096f04d.png">
 
+### Hintergrund (Bühne)
 
-h
+Da es sich bei unserem Spiel um ein Halloween-Spiel handelt, wählen wir einen Nachthimmel als Hintergrund, den wir aus dem Internet heraussuchten. Mithilfe des in Snap! intergrierten Editors bearbeiteten wir den Hintergrund und passten ihn größentechnisch an. 
+
+![himmel 2](https://user-images.githubusercontent.com/42578525/48674797-7b19ce80-eb50-11e8-9056-cd3fc11a5f9c.png)
+
+
 
