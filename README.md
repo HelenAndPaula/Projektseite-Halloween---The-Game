@@ -1,5 +1,7 @@
 # Projektseite Halloween - The Game
 
+<img width="633" alt="bildschirmfoto 2018-11-14 um 14 31 56" src="https://user-images.githubusercontent.com/42578525/48674825-d1870d00-eb50-11e8-9bd3-29dc62d97415.png">
+
 ## Idee
 
 Unsere Aufgabe für die erste Abgabe war es, uns mit der Technik des Programmierens auseinanderzusetzen und mit Hilfe der erlernten 
