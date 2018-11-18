@@ -34,7 +34,11 @@ In den Vorlagen der Kostüme von Snap! fanden wir vier verschiedene Fledermausko
 <img width="110" alt="bildschirmfoto 2018-11-18 um 12 43 46" src="https://user-images.githubusercontent.com/42578525/48671949-b48e1200-eb2f-11e8-8ae5-1c54f543aa93.png"> <img width="356" alt="bildschirmfoto 2018-11-18 um 12 41 04" src="https://user-images.githubusercontent.com/42578525/48671908-42b5c880-eb2f-11e8-90f1-36633de2298c.png"> 
 <img width="430" alt="bildschirmfoto 2018-11-18 um 12 44 00" src="https://user-images.githubusercontent.com/42578525/48671946-afc95e00-eb2f-11e8-9236-504e06f8ee98.png">
 
-Diese waren der Grundbaustein unseres Spieles. Erst danach wählten wir ein Gespenst als Spielfigur und einen Kürbis als Ziel, welches der Geist erreichen muss. 
+Diese waren der Grundbaustein unseres Spieles. Erst danach wählten wir ein Gespenst als Spielfigur und einen Kürbis als Ziel, welches der Geist erreichen muss. Somit ergaben sich folgende Figuren:
+
+<img width="375" alt="bildschirmfoto 2018-11-18 um 12 59 51" src="https://user-images.githubusercontent.com/42578525/48672099-edc78180-eb31-11e8-94e0-ca799e994fe0.png">
+
+
 
 
 
