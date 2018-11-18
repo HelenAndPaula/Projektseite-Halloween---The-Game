@@ -1,6 +1,6 @@
 # Projektseite Halloween - The Game
 
-<img width="633" alt="bildschirmfoto 2018-11-14 um 14 31 56" src="https://user-images.githubusercontent.com/42578525/48674825-d1870d00-eb50-11e8-9bd3-29dc62d97415.png">
+<img width="955" alt="bildschirmfoto 2018-11-18 um 16 42 30" src="https://user-images.githubusercontent.com/42578525/48674838-fc716100-eb50-11e8-8abe-c364ddc953ff.png">
 
 ## Idee
 
