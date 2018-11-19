@@ -80,3 +80,11 @@ Um dem Spiel ein Ziel zu geben, welches der Spieler erreichen muss, haben wir un
 
 Um das Punktesystem zu erstellen, errichteten wir zunächst die neue Variable "Punkte" und gaben an wie sich diese ändern sollte. Das selbe taten wir mit der Variable "Zeit". 
 
+<img width="258" alt="bildschirmfoto 2018-11-19 um 16 15 11" src="https://user-images.githubusercontent.com/42578525/48715886-58ea8400-ec16-11e8-8822-83973431c6d6.png">
+
+<img width="246" alt="bildschirmfoto 2018-11-19 um 16 14 32" src="https://user-images.githubusercontent.com/42578525/48715895-5d16a180-ec16-11e8-84af-58e0021df15b.png">
+
+Damit die Punkte bei jedem Spielbeginn auf null und der Countdown bei 60 steht, fügten wir zudem folgenden Befehl hinzu: 
+
+<img width="237" alt="bildschirmfoto 2018-11-19 um 16 18 59" src="https://user-images.githubusercontent.com/42578525/48716079-d7472600-ec16-11e8-80c2-c325400cab06.png">
+
