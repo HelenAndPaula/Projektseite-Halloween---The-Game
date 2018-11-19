@@ -61,7 +61,7 @@ Aus jeder der Kategorien, denen der Übersicht halber auch je eine Farbe zugetei
 
 Nachdem wir uns für ein Programm und eine Spielidee entschieden hatten, planten wir die Umsetzung und den Ausbau der Idee. 
 
-### Gegner: Fledermäuse 
+### <a name="4"></a>Gegner: Fledermäuse 
 In den Vorlagen der Kostüme von Snap! fanden wir vier verschiedene Fledermauskostüme, aus denen sich eine fleigende, mit den Flügeln schlagende Fledermaus annimieren ließ. 
 
 <img width="110" alt="bildschirmfoto 2018-11-18 um 12 43 46" src="https://user-images.githubusercontent.com/42578525/48671949-b48e1200-eb2f-11e8-8ae5-1c54f543aa93.png"> <img width="356" alt="bildschirmfoto 2018-11-18 um 12 41 04" src="https://user-images.githubusercontent.com/42578525/48671908-42b5c880-eb2f-11e8-90f1-36633de2298c.png"> 
@@ -77,7 +77,7 @@ Nachdem wir nun sowohl die Figuren sowie den Inhalt des Spiels festgelegt hatten
 
 Somit hatten wird die Grundlage eines sich bewgenden Gegners geschaffen.
 
-### <a name="4"></a> Hauptfigur: Geist
+### <a name="5"></a> Hauptfigur: Geist
 
 ALs nächstes programmierten wir den Geist als Hauptfigur. Unser Ziel war es dabei, dass der Spieler den Geist mit den Pfeiltasten steuern kann, um den Kürbis zu erreichen und den FLedermäusen auszuweichen. Dabei entspricht die Richtung der Pfeiltaste der Bewegungsrichtung. 
 
@@ -89,7 +89,7 @@ Zudem sollte das Gespenst auf Berührungen mit den Fledermäuses reagieren. Dazu
 
 <img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48674001-16f30c80-eb48-11e8-9ec3-c09ac58221eb.png">
 
-### <a name="5"></a> Ziel: Kürbis
+### <a name="6"></a> Ziel: Kürbis
 
 Die Aufgabe des Spieler sollte es sein, als Gepenst möglichst oft den Kürbis als Ziel zu berühren. Den Kürbis suchten wir uns aus dem Internet und setzten ihn als Kostüm ein. Anschließend entschieden wir uns, statt mehrerer Kürbisse nur einen zu wählen, der nach jeder Berührung durch den Geit an eine neue zufällige Position wechselt, zu Beginn jeder Runde jedoch an der selben Koordinate (-50⎢100) starten. Da wir als Start des Spiels das Drücken der Leertaste festgelegt hatte, nutzten wir den Control-Block "Wenn Taste Leertaste gedrückt" und den Motion-Block "Gehe zu x: -50, y: 100), wobei der Kürbis auf 30% seiner Größe reduziert werden sollte: Look-Block "setzt Grüße auf 30%".
 
@@ -98,13 +98,13 @@ Um den Kürbis an eine zufällige Stelle springen zu lassen, wählten wir den Se
 
 <img width="218" alt="bildschirmfoto 2018-11-18 um 16 20 20" src="https://user-images.githubusercontent.com/42578525/48674558-e01ff500-eb4d-11e8-9e52-6dc26096f04d.png">
 
-### <a name="6"></a> Hintergrund (Bühne)
+### <a name="7"></a> Hintergrund (Bühne)
 
 Da es sich bei unserem Spiel um ein Halloween-Spiel handelt, wählen wir einen Nachthimmel als Hintergrund, den wir aus dem Internet heraussuchten. Mithilfe des in Snap! intergrierten Editors bearbeiteten wir den Hintergrund und passten ihn größentechnisch an. Der Hintergrund ist dabei absichtlich etwas verschwommen, damit die Figuren besser erkennbar in den Vordergrund treten.
 
 ![himmel 2](https://user-images.githubusercontent.com/42578525/48674797-7b19ce80-eb50-11e8-9056-cd3fc11a5f9c.png)
 
-### <a name="7"></a> Anleitung 
+### <a name="8"></a> Anleitung 
 
 Um  zu Beginn des Spiels alles zu erklären, spricht der Geist mit einer Sprechblase mit dem Spieler. 
 
@@ -112,7 +112,7 @@ Um  zu Beginn des Spiels alles zu erklären, spricht der Geist mit einer Sprechb
 
 <img width="373" alt="bildschirmfoto 2018-11-19 um 16 49 03" src="https://user-images.githubusercontent.com/42578525/48718126-12e3ef00-ec1b-11e8-802c-024a38a29959.png">
 
-### <a name="8"></a> Punktesystem und Zeit
+### <a name="9"></a> Punktesystem und Zeit
 
 Um dem Spiel ein Ziel zu geben, welches der Spieler erreichen muss, haben wir uns zudem ein Punktesystem überlegt. Der Spieler startet mit 0 Punkten und gewinnt immer zwei Punkte, wenn er den Kürbis berührt, verliert jedoch einen wenn er mit den Fledermäusen in Kontakt kommt. Da wir es bisher nicht geschafft haben, dem Geist Leben abzuziehen, begrenzt sich die Spielzeit auf 60 Sekunden, nach denen das Spiel stoppt. 
 
@@ -126,7 +126,7 @@ Damit die Punkte bei jedem Spielbeginn auf null und der Countdown bei 60 steht, 
 
 <img width="237" alt="bildschirmfoto 2018-11-19 um 16 18 59" src="https://user-images.githubusercontent.com/42578525/48716079-d7472600-ec16-11e8-80c2-c325400cab06.png">
 
-### <a name="9"></a> Spielende und Endbildschirm
+### <a name="10"></a> Spielende und Endbildschirm
 
 Nachdem die 60 Sekunden abgelaufen sind, wird das Spiel automatisch gestoppt und alle Figuren verschwinden durch den Befehl "Wenn Zeit==, Verstecken", wie der folgende Screenshot zeigt:
 
@@ -140,7 +140,7 @@ Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende z
 
 <img width="256" alt="123" src="https://user-images.githubusercontent.com/42578525/48717227-41f96100-ec19-11e8-851f-a86c0f92cd9d.png">
 
-### <a name="10"></a> Startbildschirm
+### <a name="11"></a> Startbildschirm
 
 Neben diesen beiden Endbildschirmen gibt es auch einen Startbildschirm, bevor das Spiel beginnt. Dieser zeigt dem Spieler den Titel des Spieles und fordert ihn auf, die Leertaste zu drücken, um zu beginnen. 
 
@@ -156,10 +156,14 @@ Sobald der Spieler die Leertaste betätigt, wechselt der Hintergrund zu dem norm
 
 <img width="336" alt="bildschirmfoto 2018-11-19 um 16 41 05" src="https://user-images.githubusercontent.com/42578525/48717542-ed0a1a80-ec19-11e8-9153-5bbdf3d11de4.png">
 
-### <a name="11"></a> Musik 
+### <a name="12"></a> Musik 
 
 Um die gruselige Stimmung des Spiels zu verdeutlichen, fügten wir Halloween-Musik von YouTube (https://www.youtube.com/watch?v=3LpF3lf3cRQ&t=104s) hinzu, welche die gesamte Zeit im Hintergrund läuft. 
 
 <img width="220" alt="bildschirmfoto 2018-11-19 um 16 46 55" src="https://user-images.githubusercontent.com/42578525/48717976-be407400-ec1a-11e8-859d-d60c1fcc554f.png">
 
-### <a name="12"></a> Stundenblog
+### <a name="13"></a> Stundenblog
+
+Anbei findet sich der Link zu unserem Stundenblog, indem wir jede Stunde unsere einzelnen Arbeitsschritte festgehalten haben:
+
+https://github.com/HelenAndPaula/Stundenblog/blob/master/README.md
