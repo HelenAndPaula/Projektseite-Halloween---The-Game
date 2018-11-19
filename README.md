@@ -98,8 +98,24 @@ Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende z
 
 <img width="252" alt="bildschirmfoto 2018-11-19 um 16 33 06" src="https://user-images.githubusercontent.com/42578525/48716995-d7482580-ec18-11e8-89c4-45d6aedb82e0.png">
 
-<img width="255" alt="bildschirmfoto 2018-11-17 um 11 44 42" src="https://user-images.githubusercontent.com/42578525/48717041-ecbd4f80-ec18-11e8-961e-4682ae711e97.png">
-
 <img width="253" alt="bildschirmfoto 2018-11-17 um 11 50 03" src="https://user-images.githubusercontent.com/42578525/48717083-fb0b6b80-ec18-11e8-8d94-d1cfaac04806.png">
 
+<img width="256" alt="123" src="https://user-images.githubusercontent.com/42578525/48717227-41f96100-ec19-11e8-851f-a86c0f92cd9d.png">
 
+### Startbildschirm
+
+Neben diesen beiden Endbildschirmen gibt es auch einen Startbildschirm, bevor das Spiel beginnt. Dieser zeigt dem Spieler den Titel des Spieles und fordert ihn auf, die Leertaste zu drücken, um zu beginnen. 
+
+<img width="955" alt="bildschirmfoto 2018-11-18 um 16 42 30" src="https://user-images.githubusercontent.com/42578525/48674838-fc716100-eb50-11e8-8abe-c364ddc953ff.png">
+
+Damit auf dem Startbilschirm nicht alle Figuren zu sehen sind, sondern erst beim Drücken der Leertaste erscheinen benutzten wir zudem diese Befehlfolge: 
+
+<img width="236" alt="bildschirmfoto 2018-11-19 um 16 39 50" src="https://user-images.githubusercontent.com/42578525/48717459-c0560300-ec19-11e8-8008-164aa26f4c79.png">
+
+Dasselbe gilt für den Punktestand und die Zeit. 
+
+Sobald der Spieler die Leertaste betätigt, wechselt der Hintergrund zu dem normalen Spielhintergrund. 
+
+<img width="336" alt="bildschirmfoto 2018-11-19 um 16 41 05" src="https://user-images.githubusercontent.com/42578525/48717542-ed0a1a80-ec19-11e8-9153-5bbdf3d11de4.png">
+
+### Musik 
