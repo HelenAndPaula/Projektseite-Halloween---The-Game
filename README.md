@@ -74,6 +74,14 @@ Da es sich bei unserem Spiel um ein Halloween-Spiel handelt, wählen wir einen N
 
 ![himmel 2](https://user-images.githubusercontent.com/42578525/48674797-7b19ce80-eb50-11e8-9056-cd3fc11a5f9c.png)
 
+### Anleitung 
+
+Um  zu Beginn des Spiels alles zu erklären, spricht der Geist mit einer Sprechblase mit dem Spieler. 
+
+<img width="529" alt="bildschirmfoto 2018-11-19 um 16 48 10" src="https://user-images.githubusercontent.com/42578525/48718115-0d86a480-ec1b-11e8-9564-1185a81e768b.png">
+
+<img width="373" alt="bildschirmfoto 2018-11-19 um 16 49 03" src="https://user-images.githubusercontent.com/42578525/48718126-12e3ef00-ec1b-11e8-802c-024a38a29959.png">
+
 ### Punktesystem und Zeit
 
 Um dem Spiel ein Ziel zu geben, welches der Spieler erreichen muss, haben wir uns zudem ein Punktesystem überlegt. Der Spieler startet mit 0 Punkten und gewinnt immer zwei Punkte, wenn er den Kürbis berührt, verliert jedoch einen wenn er mit den Fledermäusen in Kontakt kommt. Da wir es bisher nicht geschafft haben, dem Geist Leben abzuziehen, begrenzt sich die Spielzeit auf 60 Sekunden, nach denen das Spiel stoppt. 
@@ -119,3 +127,9 @@ Sobald der Spieler die Leertaste betätigt, wechselt der Hintergrund zu dem norm
 <img width="336" alt="bildschirmfoto 2018-11-19 um 16 41 05" src="https://user-images.githubusercontent.com/42578525/48717542-ed0a1a80-ec19-11e8-9153-5bbdf3d11de4.png">
 
 ### Musik 
+
+Um die gruselige Stimmung des Spiels zu verdeutlichen, fügten wir Halloween-Musik von YouTube (https://www.youtube.com/watch?v=3LpF3lf3cRQ&t=104s) hinzu, welche die gesamte Zeit im Hintergrund läuft. 
+
+<img width="220" alt="bildschirmfoto 2018-11-19 um 16 46 55" src="https://user-images.githubusercontent.com/42578525/48717976-be407400-ec1a-11e8-859d-d60c1fcc554f.png">
+
+
