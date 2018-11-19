@@ -2,6 +2,36 @@
 
 <img width="955" alt="bildschirmfoto 2018-11-18 um 16 42 30" src="https://user-images.githubusercontent.com/42578525/48674838-fc716100-eb50-11e8-8abe-c364ddc953ff.png">
 
+# *Inhaltsverzeichnis* 
+
+[1.   Idee](#1)  
+
+[2.   Programm](#2)  
+
+[3.   Umsetzung der Idee - Konzept](#3)
+
+[4.   Gegner: Fledermäuse](#4)
+ 
+[5.   Hauptfigur: Geist](#5)
+
+[6.   Ziel: Kürbis](#6)
+
+[7.   Hintergrund (Bühne)](#7)
+
+[8.   Anleitung](#8)
+ 
+[9.   Punktesystem und Zeit](#9)
+
+[10.   Spielende und Endbildschirm](#10)
+
+[11.   Startbildschirm](#11)
+
+[12.   Musik](#12)
+
+[13.   Stundenblock](#13)
+
+
+
 ## Idee
 
 Unsere Aufgabe für die erste Abgabe war es, uns mit der Technik des Programmierens auseinanderzusetzen und mit Hilfe der erlernten 
