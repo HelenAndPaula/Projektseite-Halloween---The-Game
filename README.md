@@ -84,7 +84,22 @@ Um das Punktesystem zu erstellen, errichteten wir zunächst die neue Variable "P
 
 <img width="246" alt="bildschirmfoto 2018-11-19 um 16 14 32" src="https://user-images.githubusercontent.com/42578525/48715895-5d16a180-ec16-11e8-84af-58e0021df15b.png">
 
-Damit die Punkte bei jedem Spielbeginn auf null und der Countdown bei 60 steht, fügten wir zudem folgenden Befehl hinzu: 
+Damit die Punkte bei jedem Spielbeginn auf null und der Countdown bei 60 steht, fügten wir zudem folgenden Befehl hinzu: Sobald zum Spielstart die Leertaste gedrückt wird, setzen sich Punktstand und Zeit zurück. 
 
 <img width="237" alt="bildschirmfoto 2018-11-19 um 16 18 59" src="https://user-images.githubusercontent.com/42578525/48716079-d7472600-ec16-11e8-80c2-c325400cab06.png">
+
+### Spielende und Endbildschirm
+
+Nachdem die 60 Sekunden abgelaufen sind, wird das Spiel automatisch gestoppt und alle Figuren verschwinden durch den Befehl "Wenn Zeit==, Verstecken", wie der folgende Screenshot zeigt:
+
+<img width="235" alt="bildschirmfoto 2018-11-19 um 16 28 50" src="https://user-images.githubusercontent.com/42578525/48716743-45d8b380-ec18-11e8-9e3a-2810c192cf2a.png">
+
+Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende zwei verschiedene Hintergründe: Erreicht der Spieler weniger als 20 Punkte, erscheint ein Hintergrund mit der Aufforderung es noch einmal zu versuchen, hat er über 20 Punkte erreicht, wird ihm dazu gratuliert. Bei beiden Hintergründen gibt es die Möglichkeit durch erneutes Betätigen der Leertaste eine neue Runde zu spielen.
+
+<img width="252" alt="bildschirmfoto 2018-11-19 um 16 33 06" src="https://user-images.githubusercontent.com/42578525/48716995-d7482580-ec18-11e8-89c4-45d6aedb82e0.png">
+
+<img width="255" alt="bildschirmfoto 2018-11-17 um 11 44 42" src="https://user-images.githubusercontent.com/42578525/48717041-ecbd4f80-ec18-11e8-961e-4682ae711e97.png">
+
+<img width="253" alt="bildschirmfoto 2018-11-17 um 11 50 03" src="https://user-images.githubusercontent.com/42578525/48717083-fb0b6b80-ec18-11e8-8d94-d1cfaac04806.png">
+
 
