@@ -28,7 +28,7 @@
 
 [12.   Musik](#12)
 
-[13.   Stundenblock](#13)
+[13.   Stundenblog](#13)
 
 
 
@@ -167,3 +167,7 @@ Um die gruselige Stimmung des Spiels zu verdeutlichen, fügten wir Halloween-Mus
 Anbei findet sich der Link zu unserem Stundenblog, indem wir jede Stunde unsere einzelnen Arbeitsschritte festgehalten haben:
 
 https://github.com/HelenAndPaula/Stundenblog/blob/master/README.md
+
+<img width="304" alt="bildschirmfoto 2018-11-19 um 17 01 45" src="https://user-images.githubusercontent.com/42578525/48719047-daddab80-ec1c-11e8-8fd0-6d05e11a8e1a.png">
+
+<img width="936" alt="bildschirmfoto 2018-11-19 um 17 01 57" src="https://user-images.githubusercontent.com/42578525/48719050-ddd89c00-ec1c-11e8-9961-b95bc6e2d711.png">
