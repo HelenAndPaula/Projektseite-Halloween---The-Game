@@ -76,5 +76,7 @@ Da es sich bei unserem Spiel um ein Halloween-Spiel handelt, wählen wir einen N
 
 ### Punktesystem und Zeit
 
+Um dem Spiel ein Ziel zu geben, welches der Spieler erreichen muss, haben wir uns zudem ein Punktesystem überlegt. Der Spieler startet mit 0 Punkten und gewinnt immer zwei Punkte, wenn er den Kürbis berührt, verliert jedoch einen wenn er mit den Fledermäusen in Kontakt kommt. Da wir es bisher nicht geschafft haben, dem Geist Leben abzuziehen, begrenzt sich die Spielzeit auf 60 Sekunden, nach denen das Spiel stoppt. 
 
+Um das Punktesystem zu erstellen, errichteten wir zunächst die neue Variable "Punkte" und gaben an wie sich diese ändern sollte. Das selbe taten wir mit der Variable "Zeit". 
 
