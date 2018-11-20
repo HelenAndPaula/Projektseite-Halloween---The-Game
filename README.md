@@ -164,7 +164,7 @@ Um die gruselige Stimmung des Spiels zu verdeutlichen, fügten wir Halloween-Mus
 
 ### <a name="13"></a> Stundenblog
 
-Anbei findet sich der Link zu unserem [Stundenblog](https://github.com/HelenAndPaula/Stundenblog/blob/master/README.md)., indem wir jede Stunde unsere einzelnen Arbeitsschritte festgehalten haben:
+Anbei findet sich der Link zu unserem [Stundenblog](https://github.com/HelenAndPaula/Stundenblog/blob/master/README.md), indem wir jede Stunde unsere einzelnen Arbeitsschritte festgehalten haben:
 
 <img width="304" alt="bildschirmfoto 2018-11-19 um 17 01 45" src="https://user-images.githubusercontent.com/42578525/48719047-daddab80-ec1c-11e8-8fd0-6d05e11a8e1a.png">
 
