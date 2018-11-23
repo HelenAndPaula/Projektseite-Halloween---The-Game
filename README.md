@@ -69,42 +69,49 @@ Diese sind der Grundbaustein des Spieles. Erst danach folgten ein Gespenst als S
 
 <img width="375" alt="bildschirmfoto 2018-11-18 um 12 59 51" src="https://user-images.githubusercontent.com/42578525/48672099-edc78180-eb31-11e8-94e0-ca799e994fe0.png">
 
-Die Fledermäuse haben als Gegner die Aufgabe, sich frei auf dem Spielfeld zu bewegen, sodass der SPieler ihnen ausweichen muss. Dabei sollen sie möglichst realistisch mit den Flügeln schlagen.  Aus verschiednen Kostümen lässt sich eine Flugbewegung animieren. Dazu werden insgesamt vier Kostüme genutzt, die die Fledermausflügel in verschiedenen Postionen zeigt. und gaben den Befehl, dass die Fledermäuse sich jeweils um zwei Schritte bewgen sollten, an den Rändern des Spielfeldes abprallen sollen und sich dabei die verschiedenen Fledermäuse auf verschienden Höhen bewegen.
+Die Fledermäuse haben als Gegner die Aufgabe, sich frei auf dem Spielfeld zu bewegen, sodass der SPieler ihnen ausweichen muss. Dabei sollen sie möglichst realistisch mit den Flügeln schlagen.  Zunächst wird die Größe der Fledermaus durch den Look-Block "setzte Größe auf" auf 25% reduziert, um die der größe des Spielfeldes anzupassen. Aus verschiednen Kostümen lässt sich eine Flugbewegung animieren. Dazu werden insgesamt vier Kostüme genutzt, die die Fledermausflügel in verschiedenen Postionen zeigt. Die Kostüme sind der Übersicht halber von eins bis vier nummeriert. Um eine Flugbewegung darzustellen, werden die Kostüme durch den Look-Block "ziehe Kostüm x an" nacheinander mit einer Wartezeit von je 0.1 Sekunden (Control-Block "warte x Sek.") gewechselt, sodass dabei eine einheitliche Bewegung durch folgende Reihenfolge entsteht: Kostüm 1 - Kostüm 2 - Kostüm 3 - Kostüm 4 - Kostüm 3 - Kostüm 2- ... Somit schlägt die Federmaus mit den Flügeln, sobald die Leertaste gedrückt wird, da dieser Befehl (Wenn Taste "Leertaste" gedrückt") am Anfang des Blocks steht. 
 
+Um die Fledermäuse über das Spielfeld fliegen zu lassen, werden nun zusätzlich Motion-Blocks in einem neuen Befehl verwendet. Auf den Control-Block "Wenn Taste "Leertaste" gedrückt" folgt der Control-Befehl das fortlaufend zwei Motion-Blöcke ausgeführt werden sollen. Der Block "pralle vom Rand ab" sorgt dafür, dass die Fledermäuse im Spielfeld bleiben, der Befehl "gehe 2 Schritte" sorgt für eine kontinuirliche Bewgung über das Spielfeld. 
 <img width="228" alt="bildschirmfoto 2018-11-18 um 14 57 45" src="https://user-images.githubusercontent.com/42578525/48673504-6afaf280-eb42-11e8-9ce8-1d4d9e5eb35c.png">
 
-Somit hatten wird die Grundlage eines sich bewgenden Gegners geschaffen.
+Anschließend lässt sich die programmierte Fledermaus mit der rechten Maustaste anklicken und auf eine beliebige Anzahl klonen.
+
+Somit  wird die Grundlage eines sich bewgenden Gegners geschaffen.
 
 ### <a name="5"></a> Hauptfigur: Geist
 
-ALs nächstes programmierten wir den Geist als Hauptfigur. Unser Ziel war es dabei, dass der Spieler den Geist mit den Pfeiltasten steuern kann, um den Kürbis zu erreichen und den FLedermäusen auszuweichen. Dabei entspricht die Richtung der Pfeiltaste der Bewegungsrichtung. 
+Als Hauptfigur des Spiels dient ein Geist.  Ziel ist es dabei, dass der Spieler den Geist mit den Pfeiltasten steuern kann, um den Kürbis zu erreichen und den FLedermäusen auszuweichen. Dabei entspricht die Richtung der Pfeiltaste der Bewegungsrichtung. 
 
-Dazu nutzten wir den Control-Block "Wenn Pfeiltaste nach (Richtung) gedrückt" und gaben an dass sich das Gespenst in diesem Falle zwei Schritte in die jeweilige Richtung bewegen sollte. 
+Dazu  wird der Control-Block "Wenn Pfeiltaste nach (Richtung) gedrückt" genutzt und angegeben, dass sich das Gespenst in diesem Falle zwei Schritte in die Richtung der Pfeiltaste bewegen soll. Dazu wird zunächst der Control-Block "Wenn Taste "Pfeil nach x" gedrückt" gesetzt und an diesen der Motion-Block "zeige Richtung x" gesetzt. Die Richtung entspricht dabei der Pfeiltaste und wird durch Gradzahlen dargestellt (links: -90, rechts: 90, oben: 0, unten: 180). AUf diesen Befehl folgt erneut der Motion-Block "gehe 2 SChritte" mit der Ergänzung "pralle vom Rand ab". 
 
 <img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48673758-07be8f80-eb45-11e8-866a-d7870e44af99.png">
 
-Zudem sollte das Gespenst auf Berührungen mit den Fledermäuses reagieren. Dazu wählten wir ein zweites Gespenst aus den verfügbarene Kostümen. Sobald dich Fledermaus und Geist berühren, verschwindet das Gespenst kurz und wechselt dann für 0,3 Sekunden zu einem anderen Kostüm, das den Geist wütend zeigt. Danach wechselt es zurück zu seinem vorherigren Kostüm. Um dies darzustellen nutzen wir den Control-Befehl "Wenn berühre "bat"" und gaben danach die auszuführenden Befehle an. Diesen Befehl programmierten wir für alle Fledermäuse. 
+Zudem sollte das Gespenst auf Berührungen mit den Fledermäuses reagieren. Zur Visualisierung  dient ein zweites Gespenst aus den verfügbarene Kostümen. Sobald sich Fledermaus und Geist berühren, verschwindet das Gespenst kurz und wechselt dann für 0,3 Sekunden zu einem anderen Kostüm, das den Geist wütend zeigt. Danach wechselt es zurück zu seinem vorherigren Kostüm.
+
+Hierbei wird zunächst der Sensing-Block "Wenn berühre "x"" genutzt, wobei x durch die Namen der verschidenen Fledermäuse ersetzt wird. In diesem Fall tritt der Look-Block "verstecken" in Kraft, sodass die Fledermaus kurzzeitig verschwindet bis der Befehl durch den Look-Block "anzeigen" wieder aufgelöst wird. Darauf folgt der Look-Befehl "ziehe Kostüm x" an, dabei wird der Name des Kostüms für den zweiten Geist eingesetzt. Auch hier wird die Größe durch den Befehl "setze Größe auf 30%" reduziert. Durch den Control-Befehl "warte 0.3 Sek." bleibt der Geist für 0.3 Sekunden in diesem Kostüm, danach wechselt er zu seinem normalen Kostüm durch den Betehl "ziehe Kostüm x" an, wobei der ursprüngliche Kostüm-Name eingesetzt wird. 
+iesen Befehl programmierten wir für alle Fledermäuse. 
 
 <img width="575" alt="bildschirmfoto 2018-11-18 um 15 15 02" src="https://user-images.githubusercontent.com/42578525/48674001-16f30c80-eb48-11e8-9ec3-c09ac58221eb.png">
 
 ### <a name="6"></a> Ziel: Kürbis
 
-Die Aufgabe des Spieler sollte es sein, als Gepenst möglichst oft den Kürbis als Ziel zu berühren. Den Kürbis suchten wir uns aus dem Internet und setzten ihn als Kostüm ein. Anschließend entschieden wir uns, statt mehrerer Kürbisse nur einen zu wählen, der nach jeder Berührung durch den Geit an eine neue zufällige Position wechselt, zu Beginn jeder Runde jedoch an der selben Koordinate (-50⎢100) starten. Da wir als Start des Spiels das Drücken der Leertaste festgelegt hatte, nutzten wir den Control-Block "Wenn Taste Leertaste gedrückt" und den Motion-Block "Gehe zu x: -50, y: 100), wobei der Kürbis auf 30% seiner Größe reduziert werden sollte: Look-Block "setzt Grüße auf 30%".
+Die Aufgabe des Spieler sollte es sein, als Gepenst möglichst oft den Kürbis als Ziel zu berühren. Die Kürbis-Grafik stammt aus dem Internet. Der Kürbis, von dem es nur einen einzigen gibt, wechselt nach jeder Berührung durch den Geit an eine neue zufällige Position, startet jedoch zu Beginn jeder Runde  an der selben Koordinate (-50⎢100) starten. Da  als Start des Spiels das Drücken der Leertaste festgelegt ist, wird der Control-Block "Wenn Taste Leertaste gedrückt" und den Motion-Block "Gehe zu x: -50, y: 100) verwendet, wobei der Kürbis auf 30% seiner Größe reduziert wird: Look-Block "setzt Grüße auf 30%". SOmit startet der Kürbis immer an der selben Stelle. 
 
 <img width="221" alt="bildschirmfoto 2018-11-18 um 16 15 21" src="https://user-images.githubusercontent.com/42578525/48674484-2d4f9700-eb4d-11e8-8791-936b1a8b5194.png">
-Um den Kürbis an eine zufällige Stelle springen zu lassen, wählten wir den Sensing-Block "Wenn berühre Sprite(2)" und den Look-Block "verstecken", damit der Kürbis zunäxhst kurz verschwindet. Darauf folgt der Motion-Block "gehe zu zufällige Position" und die Auflösung des Versteckens durch den Befehl "anzeigen". Um den Kürbis dabei innerhalb des Spielfelds zu halten, nutzten wir zudem den Befehl "Pralle von Rand ab". 
+
+Um den Kürbis an eine zufällige Stelle springen zu lassen, wird der Sensing-Block "Wenn berühre Sprite(2)" gewählt (Sprite (") = Geist) und der Look-Block "verstecken", damit der Kürbis zunächst kurz nicht sichtbar ist. Darauf folgt der Motion-Block "gehe zu zufällige Position" und die Auflösung des Versteckens durch den Befehl "anzeigen". Um den Kürbis dabei innerhalb des Spielfelds zu halten,  wird zudem den Befehl "Pralle von Rand ab"genutzt. 
 
 <img width="218" alt="bildschirmfoto 2018-11-18 um 16 20 20" src="https://user-images.githubusercontent.com/42578525/48674558-e01ff500-eb4d-11e8-9e52-6dc26096f04d.png">
 
 ### <a name="7"></a> Hintergrund (Bühne)
 
-Da es sich bei unserem Spiel um ein Halloween-Spiel handelt, wählen wir einen Nachthimmel als Hintergrund, den wir aus dem Internet heraussuchten. Mithilfe des in Snap! intergrierten Editors bearbeiteten wir den Hintergrund und passten ihn größentechnisch an. Der Hintergrund ist dabei absichtlich etwas verschwommen, damit die Figuren besser erkennbar in den Vordergrund treten.
+Da es sich bei dem Spiel um ein Halloween-Spiel handelt, dient als Hintergrund ein Nachthimmel , der aus dem Internet stammt (http://node.kg.qq.com/play?s=Xw91uqXy9otdMX4r&g_f=personal). Das Bild wird zunächst im Bereich "Bühne" hochgeladen. Mithilfe des in Snap! intergrierten Editors  wird den Hintergrund der Hintergrund bearbeitet und   größentechnisch angepasst. Der Hintergrund ist dabei absichtlich etwas verschwommen, damit die Figuren besser erkennbar in den Vordergrund treten. 
 
 ![himmel 2](https://user-images.githubusercontent.com/42578525/48674797-7b19ce80-eb50-11e8-9056-cd3fc11a5f9c.png)
 
 ### <a name="8"></a> Anleitung 
 
-Um  zu Beginn des Spiels alles zu erklären, spricht der Geist mit einer Sprechblase mit dem Spieler. 
+Um  zu Beginn des Spiels alles zu erklären, spricht der Geist mit einer Sprechblase mit dem Spieler. Dazu wird der Control-Befehl "Wenn Taste Leertaste gedrückt" mit dem Look-Befehl "sage "Text" für 3 Sekunden" kombiniert, sodass für 3 Sekunden eine Kurze erklärung zu lesen ist. 
 
 <img width="529" alt="bildschirmfoto 2018-11-19 um 16 48 10" src="https://user-images.githubusercontent.com/42578525/48718115-0d86a480-ec1b-11e8-9564-1185a81e768b.png">
 
@@ -112,9 +119,9 @@ Um  zu Beginn des Spiels alles zu erklären, spricht der Geist mit einer Sprechb
 
 ### <a name="9"></a> Punktesystem und Zeit
 
-Um dem Spiel ein Ziel zu geben, welches der Spieler erreichen muss, haben wir uns zudem ein Punktesystem überlegt. Der Spieler startet mit 0 Punkten und gewinnt immer zwei Punkte, wenn er den Kürbis berührt, verliert jedoch einen wenn er mit den Fledermäusen in Kontakt kommt. Da wir es bisher nicht geschafft haben, dem Geist Leben abzuziehen, begrenzt sich die Spielzeit auf 60 Sekunden, nach denen das Spiel stoppt. 
+Um dem Spiel ein Ziel zu geben, welches der Spieler erreichen muss, gibt es zudem ein Punktesystem. Der Spieler startet mit 0 Punkten und gewinnt  zwei Punkte, wenn er den Kürbis berührt, verliert jedoch einen wenn er mit den Fledermäusen in Kontakt kommt. 
 
-Um das Punktesystem zu erstellen, errichteten wir zunächst die neue Variable "Punkte" und gaben an wie sich diese ändern sollte. Das selbe taten wir mit der Variable "Zeit". 
+Um das Punktesystem zu erstellen, wird zunächst in der Befehl-Kategorie "Variablen"  die neue Variable "Punkte" erstellt. Danach wird festgelgt wie sich die Variable "Punkte" verändern soll: Dazu wird als Start-Befehl wieder der Control-Block "Wenn TAste Leertaste gedrückt" gesetzt und danach fortlaufend (Control-Befehl "fortlaufend") folgender Befehl ausgeführt: Durch den Control-Block "falls berühre x" (x sdurch die Bezeichnung des Kürbis ersetzten) wird nach einer Wartezeit von 0.1 Sekunden durch den Control-Block "warte 0.1 Sek." der Punktestand durch den Variable-Block "ändere "Punkte" um 2" um zwei Punkt erhöht. FPr die Fledermäuse wird der selbe Befehl genutzt, jedoch der Kürbis durch die Fledermaus-Namen ersetzt und der Befehl "ändere "Punkte" um -1" verwendet, um die Punkte zu reduzieren. Die Wartezeit dient dazu, den Punktestand nicht zu schnell zu erhöhen bzw. zu verringern. 
 
 <img width="258" alt="bildschirmfoto 2018-11-19 um 16 15 11" src="https://user-images.githubusercontent.com/42578525/48715886-58ea8400-ec16-11e8-8822-83973431c6d6.png">
 
