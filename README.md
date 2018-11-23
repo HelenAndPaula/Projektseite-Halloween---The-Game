@@ -127,17 +127,29 @@ Um das Punktesystem zu erstellen, wird zunächst in der Befehl-Kategorie "Variab
 
 <img width="246" alt="bildschirmfoto 2018-11-19 um 16 14 32" src="https://user-images.githubusercontent.com/42578525/48715895-5d16a180-ec16-11e8-84af-58e0021df15b.png">
 
-Damit die Punkte bei jedem Spielbeginn auf null und der Countdown bei 60 steht, fügten wir zudem folgenden Befehl hinzu: Sobald zum Spielstart die Leertaste gedrückt wird, setzen sich Punktstand und Zeit zurück. 
+Als Begrenzung der Spieldauer dient ein Timer von 60 Sekunden. Um diesen zu erstellen, wird zunächst in der Befehl-Kategorie "Variablen"  die neue Variable "Zeit" erstellt. Danach wird festgelgt wie sich die Variable "Punkte" verändern soll: Dazu wird als Start-Befehl wieder der Control-Block "Wenn Taste Leertaste gedrückt" gesetzt und danach fortlaufend (Control-Befehl "fortlaufend") folgender Befehl ausgeführt: Auf den Variablen-Block "ändere Zeit um -1" (Zeit soll rückwärts laufen), folgt der Befehl "warte 1 Sek.", da sich so die Zeit im Abstand von 1 Sekunde und somit richitg ändert.  
 
-<img width="237" alt="bildschirmfoto 2018-11-19 um 16 18 59" src="https://user-images.githubusercontent.com/42578525/48716079-d7472600-ec16-11e8-80c2-c325400cab06.png">
+<img width="241" alt="bildschirmfoto 2018-11-23 um 17 26 58" src="https://user-images.githubusercontent.com/42578525/48953104-02968180-ef45-11e8-81d5-d8898d0044f7.png">
+
+Damit die Punkte bei jedem Spielbeginn auf null und der Countdown bei 60 steht, fügten wir zudem folgenden Befehl hinzu: 
+Auf den der Control-Block "Wenn Taste Leertaste gedrückt" folgt der Variablen-Befehl "Setzte Punkte = 0" und "setze Zeit = 60).
+
+<img width="241" alt="bildschirmfoto 2018-11-23 um 17 30 58" src="https://user-images.githubusercontent.com/42578525/48953268-8e101280-ef45-11e8-800b-17f9c0067fd0.png">
+
 
 ### <a name="10"></a> Spielende und Endbildschirm
 
-Nachdem die 60 Sekunden abgelaufen sind, wird das Spiel automatisch gestoppt und alle Figuren verschwinden durch den Befehl "Wenn Zeit==, Verstecken", wie der folgende Screenshot zeigt:
+Als Spielbegrenzung dient der Timer, sobald dieser Null zeogt, wird alles gestoppt. Dazu wird der Control-Befehl "Wenn Zeit = 0" gesetzt, auf den der Control-Block "stoppe alles" folgt.
 
 <img width="235" alt="bildschirmfoto 2018-11-19 um 16 28 50" src="https://user-images.githubusercontent.com/42578525/48716743-45d8b380-ec18-11e8-9e3a-2810c192cf2a.png">
 
+Zudem verschwinden alle Figuren durch den Befehl  "Wenn Zeit =0"  auf den der Look-Block "verstecken" folgt, wobei diesem Befehl der Befehl "Wenn Taste Leertaste gedrückt" in Kombination mit dem Befehl "anzeigen" vorausgeht, da die Figuren auch auf dem Startbildschirm nicht sichtbar sein sollen. 
+
+<img width="205" alt="bildschirmfoto 2018-11-23 um 17 38 24" src="https://user-images.githubusercontent.com/42578525/48953582-987edc00-ef46-11e8-803e-49ca21c06091.png">
+
 Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende zwei verschiedene Hintergründe: Erreicht der Spieler weniger als 20 Punkte, erscheint ein Hintergrund mit der Aufforderung es noch einmal zu versuchen, hat er über 20 Punkte erreicht, wird ihm dazu gratuliert. Bei beiden Hintergründen gibt es die Möglichkeit durch erneutes Betätigen der Leertaste eine neue Runde zu spielen.
+
+
 
 <img width="252" alt="bildschirmfoto 2018-11-19 um 16 33 06" src="https://user-images.githubusercontent.com/42578525/48716995-d7482580-ec18-11e8-89c4-45d6aedb82e0.png">
 
