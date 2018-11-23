@@ -55,23 +55,21 @@ Snap! ist eine visuelle Blockprogrammiersprache, die sich besonders für Einstei
 
 <img width="189" alt="bildschirmfoto 2018-11-18 um 12 03 21" src="https://user-images.githubusercontent.com/42578525/48671534-016eea00-eb2a-11e8-9b85-b7a02714d0e4.png">
 
-Aus jeder der Kategorien, denen der Übersicht halber auch je eine Farbe zugeteilt ist, lassen sich eine Vielzahl an Befehlen wählen und per Drag and Drop zusammensetzten. Die Befehle gelten dabei zum beispiel für eine bestimmt Figur oder den Hintergrund, die sich individuell oder aus vorhandnenen Vorlagen wählen lassen.
+Aus jeder der Kategorien, denen der Übersicht halber auch je eine Farbe zugeteilt ist, lassen sich eine Vielzahl an Befehlen wählen und per Drag and Drop zusammensetzten. Die Befehle gelten dabei zum Beispiel für eine bestimmt Figur oder den Hintergrund, die sich individuell oder aus vorhandnenen Vorlagen wählen lassen.
 
 ## <a name="3"></a> Umsetzung der Idee - Konzept
 
-Nachdem wir uns für ein Programm und eine Spielidee entschieden hatten, planten wir die Umsetzung und den Ausbau der Idee. 
-
 ### <a name="4"></a>Gegner: Fledermäuse 
-In den Vorlagen der Kostüme von Snap! fanden wir vier verschiedene Fledermauskostüme, aus denen sich eine fleigende, mit den Flügeln schlagende Fledermaus annimieren ließ. 
+In den Kostüm-Vorlagen von Snap! finden sich vier verschiedene Fledermauskostüme, aus denen sich eine fliegende, mit den Flügeln schlagende Fledermaus annimieren ließ. 
 
 <img width="110" alt="bildschirmfoto 2018-11-18 um 12 43 46" src="https://user-images.githubusercontent.com/42578525/48671949-b48e1200-eb2f-11e8-8ae5-1c54f543aa93.png"> <img width="356" alt="bildschirmfoto 2018-11-18 um 12 41 04" src="https://user-images.githubusercontent.com/42578525/48671908-42b5c880-eb2f-11e8-90f1-36633de2298c.png"> 
 <img width="430" alt="bildschirmfoto 2018-11-18 um 12 44 00" src="https://user-images.githubusercontent.com/42578525/48671946-afc95e00-eb2f-11e8-9236-504e06f8ee98.png">
 
-Diese waren der Grundbaustein unseres Spieles. Erst danach wählten wir ein Gespenst als Spielfigur und einen Kürbis als Ziel, welches der Geist erreichen muss. Somit ergaben sich folgende Figuren:
+Diese sind der Grundbaustein des Spieles. Erst danach folgten ein Gespenst als Spielfigur und einen Kürbis als Ziel, welches der Geist erreichen muss. Somit ergaben sich folgende Figuren:
 
 <img width="375" alt="bildschirmfoto 2018-11-18 um 12 59 51" src="https://user-images.githubusercontent.com/42578525/48672099-edc78180-eb31-11e8-94e0-ca799e994fe0.png">
 
-Nachdem wir nun sowohl die Figuren sowie den Inhalt des Spiels festgelegt hatten, versuchten wir zunächst, die Fledermäuse als Gegner zu progrmmieren. Dazu nutzten wir die verschiednen Kostüme (s. oben) und gaben den Befehl, dass die Fledermäuse sich jeweils um zwei Schritte bewgen sollten, an den Rändern des Spielfeldes abprallen sollen und sich dabei die verschiedenen Fledermäuse auf verschienden Höhen bewegen.
+Die Fledermäuse haben als Gegner die Aufgabe, sich frei auf dem Spielfeld zu bewegen, sodass der SPieler ihnen ausweichen muss. Dabei sollen sie möglichst realistisch mit den Flügeln schlagen.  Aus verschiednen Kostümen lässt sich eine Flugbewegung animieren. Dazu werden insgesamt vier Kostüme genutzt, die die Fledermausflügel in verschiedenen Postionen zeigt. und gaben den Befehl, dass die Fledermäuse sich jeweils um zwei Schritte bewgen sollten, an den Rändern des Spielfeldes abprallen sollen und sich dabei die verschiedenen Fledermäuse auf verschienden Höhen bewegen.
 
 <img width="228" alt="bildschirmfoto 2018-11-18 um 14 57 45" src="https://user-images.githubusercontent.com/42578525/48673504-6afaf280-eb42-11e8-9ce8-1d4d9e5eb35c.png">
 
