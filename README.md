@@ -141,11 +141,11 @@ Auf den der Control-Block "Wenn Taste Leertaste gedrückt" folgt der Variablen-B
 
 Als Spielbegrenzung dient der Timer, sobald dieser Null zeogt, wird alles gestoppt. Dazu wird der Control-Befehl "Wenn Zeit = 0" gesetzt, auf den der Control-Block "stoppe alles" folgt.
 
-<img width="235" alt="bildschirmfoto 2018-11-19 um 16 28 50" src="https://user-images.githubusercontent.com/42578525/48716743-45d8b380-ec18-11e8-9e3a-2810c192cf2a.png">
+<img width="177" alt="bildschirmfoto 2018-11-23 um 17 49 17" src="https://user-images.githubusercontent.com/42578525/48954025-1e4f5700-ef48-11e8-8e33-a8c1b5556091.png">
 
 Zudem verschwinden alle Figuren durch den Befehl  "Wenn Zeit =0"  auf den der Look-Block "verstecken" folgt, wobei diesem Befehl der Befehl "Wenn Taste Leertaste gedrückt" in Kombination mit dem Befehl "anzeigen" vorausgeht, da die Figuren auch auf dem Startbildschirm nicht sichtbar sein sollen. 
 
-<img width="205" alt="bildschirmfoto 2018-11-23 um 17 38 24" src="https://user-images.githubusercontent.com/42578525/48953582-987edc00-ef46-11e8-803e-49ca21c06091.png">
+<img width="235" alt="bildschirmfoto 2018-11-19 um 16 28 50" src="https://user-images.githubusercontent.com/42578525/48716743-45d8b380-ec18-11e8-9e3a-2810c192cf2a.png">
 
 Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende zwei verschiedene Hintergründe: Erreicht der Spieler weniger als 20 Punkte, erscheint ein Hintergrund mit der Aufforderung es noch einmal zu versuchen, hat er über 20 Punkte erreicht, wird ihm dazu gratuliert. Bei beiden Hintergründen gibt es die Möglichkeit durch erneutes Betätigen der Leertaste eine neue Runde zu spielen und wirden auf BAsis des normalen Hintergrundes durch einen Text in einem seperaten Programm ergänzt und als neue Grafiken eingsetzt. 
 
@@ -163,7 +163,7 @@ Neben diesen beiden Endbildschirmen gibt es auch einen Startbildschirm, bevor da
 
 <img width="955" alt="bildschirmfoto 2018-11-18 um 16 42 30" src="https://user-images.githubusercontent.com/42578525/48674838-fc716100-eb50-11e8-8abe-c364ddc953ff.png">
 
-Damit auf dem Startbilschirm nicht alle Figuren zu sehen sind, sondern erst beim Drücken der Leertaste erscheinen benutzten wird zudem diese Befehlfolge genutzt: Auf den Control-Block "Wenn Fahne angeklickt" folgt der Look-Befehl "verstecken". 
+Damit auf dem Startbilschirm nicht alle Figuren zu sehen sind, sondern erst beim Drücken der Leertaste erscheinen benutzten wird zudem diese Befehlfolge genutzt: Auf den Control-Block "Wenn Fahne angeklickt" folgt der Look-Befehl "verstecken". Erst Wenn Leertaste gedrückt" folgt der Befehl "anzeigen" und die Figuren werden sichtbar. Diese Befehle wurden für jede Figur eingestellt.  
 
 <img width="236" alt="bildschirmfoto 2018-11-19 um 16 39 50" src="https://user-images.githubusercontent.com/42578525/48717459-c0560300-ec19-11e8-8008-164aa26f4c79.png">
 
