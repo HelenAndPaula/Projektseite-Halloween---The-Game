@@ -147,9 +147,9 @@ Zudem verschwinden alle Figuren durch den Befehl  "Wenn Zeit =0"  auf den der Lo
 
 <img width="205" alt="bildschirmfoto 2018-11-23 um 17 38 24" src="https://user-images.githubusercontent.com/42578525/48953582-987edc00-ef46-11e8-803e-49ca21c06091.png">
 
-Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende zwei verschiedene Hintergründe: Erreicht der Spieler weniger als 20 Punkte, erscheint ein Hintergrund mit der Aufforderung es noch einmal zu versuchen, hat er über 20 Punkte erreicht, wird ihm dazu gratuliert. Bei beiden Hintergründen gibt es die Möglichkeit durch erneutes Betätigen der Leertaste eine neue Runde zu spielen.
+Je nachdem wie viele Punkte der Spieler erzielt hat, erscheinen nach Spielende zwei verschiedene Hintergründe: Erreicht der Spieler weniger als 20 Punkte, erscheint ein Hintergrund mit der Aufforderung es noch einmal zu versuchen, hat er über 20 Punkte erreicht, wird ihm dazu gratuliert. Bei beiden Hintergründen gibt es die Möglichkeit durch erneutes Betätigen der Leertaste eine neue Runde zu spielen und wirden auf BAsis des normalen Hintergrundes durch einen Text in einem seperaten Programm ergänzt und als neue Grafiken eingsetzt. 
 
-
+Dazu wird das Bühnen-Skript durch den Control-Befehl "Wenn Leertaste gedrückt" erweitert, auf den zunächst der Control Block "warte bis Zeit =0" und danach ein Control-Block "falls...sonst" folgt. "Falls Punkte > 0", "ziehe Kostüm "Gut gemacht" an", "sonst" "ziehe Kostüm "Nochmal" an. 
 
 <img width="252" alt="bildschirmfoto 2018-11-19 um 16 33 06" src="https://user-images.githubusercontent.com/42578525/48716995-d7482580-ec18-11e8-89c4-45d6aedb82e0.png">
 
@@ -163,7 +163,7 @@ Neben diesen beiden Endbildschirmen gibt es auch einen Startbildschirm, bevor da
 
 <img width="955" alt="bildschirmfoto 2018-11-18 um 16 42 30" src="https://user-images.githubusercontent.com/42578525/48674838-fc716100-eb50-11e8-8abe-c364ddc953ff.png">
 
-Damit auf dem Startbilschirm nicht alle Figuren zu sehen sind, sondern erst beim Drücken der Leertaste erscheinen benutzten wir zudem diese Befehlfolge: 
+Damit auf dem Startbilschirm nicht alle Figuren zu sehen sind, sondern erst beim Drücken der Leertaste erscheinen benutzten wird zudem diese Befehlfolge genutzt: Auf den Control-Block "Wenn Fahne angeklickt" folgt der Look-Befehl "verstecken". 
 
 <img width="236" alt="bildschirmfoto 2018-11-19 um 16 39 50" src="https://user-images.githubusercontent.com/42578525/48717459-c0560300-ec19-11e8-8008-164aa26f4c79.png">
 
@@ -175,7 +175,7 @@ Sobald der Spieler die Leertaste betätigt, wechselt der Hintergrund zu dem norm
 
 ### <a name="12"></a> Musik 
 
-Um die gruselige Stimmung des Spiels zu verdeutlichen, fügten wir Halloween-Musik von YouTube (https://www.youtube.com/watch?v=3LpF3lf3cRQ&t=104s) hinzu, welche die gesamte Zeit im Hintergrund läuft. 
+Um das Spiel für den Spieler auch akustisch ansprechend zu gestalten, wird es durch Halloween-Musik von YouTube (https://www.youtube.com/watch?v=3LpF3lf3cRQ&t=104s) ergänzt, welche die gesamte Zeit im Hintergrund läuft. DAzu wurde im Skript der Bühne der Control-Befehl "fortlaufend" genutzt und der "Sound"-Befehl "spiele Klang x". 
 
 <img width="220" alt="bildschirmfoto 2018-11-19 um 16 46 55" src="https://user-images.githubusercontent.com/42578525/48717976-be407400-ec1a-11e8-859d-d60c1fcc554f.png">
 
